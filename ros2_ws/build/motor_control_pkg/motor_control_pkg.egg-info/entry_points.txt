@@ -1,0 +1,2 @@
+[console_scripts]
+pwm_controller = motor_control_pkg.pwm_controller:main
