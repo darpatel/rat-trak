@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'image_veiwer'
+package_name = 'image_viewer'
 
 setup(
     name=package_name,
