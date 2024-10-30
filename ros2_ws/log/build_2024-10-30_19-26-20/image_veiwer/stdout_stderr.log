@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/image_veiwer/image_veiwer.egg-info
+writing ../../build/image_veiwer/image_veiwer.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_veiwer/image_veiwer.egg-info/dependency_links.txt
+writing entry points to ../../build/image_veiwer/image_veiwer.egg-info/entry_points.txt
+writing requirements to ../../build/image_veiwer/image_veiwer.egg-info/requires.txt
+writing top-level names to ../../build/image_veiwer/image_veiwer.egg-info/top_level.txt
+writing manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+reading manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build
+creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib
+creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+copying image_veiwer/__init__.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+copying image_veiwer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+running install
+running install_lib
+creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+copying /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer/__init__.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+copying /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer/viewer_node.py to viewer_node.cpython-312.pyc
+running install_data
+creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index
+creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index
+creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index/packages
+copying resource/image_veiwer -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index/packages
+copying package.xml -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/image_veiwer
+running install_egg_info
+Copying ../../build/image_veiwer/image_veiwer.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing image_viewer script to /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/image_veiwer
+writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/install.log'

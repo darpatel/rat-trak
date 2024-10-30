@@ -1,0 +1,37 @@
+[1.984s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/image_veiwer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_veiwer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/install.log --single-version-externally-managed install_data
+[2.469s] running egg_info
+[2.470s] creating ../../build/image_veiwer/image_veiwer.egg-info
+[2.495s] writing ../../build/image_veiwer/image_veiwer.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../../build/image_veiwer/image_veiwer.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../../build/image_veiwer/image_veiwer.egg-info/entry_points.txt
+[2.497s] writing requirements to ../../build/image_veiwer/image_veiwer.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/image_veiwer/image_veiwer.egg-info/top_level.txt
+[2.497s] writing manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+[2.550s] reading manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+[2.551s] writing manifest file '../../build/image_veiwer/image_veiwer.egg-info/SOURCES.txt'
+[2.552s] running build
+[2.552s] running build_py
+[2.552s] creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build
+[2.553s] creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib
+[2.553s] creating /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+[2.553s] copying image_veiwer/__init__.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+[2.553s] copying image_veiwer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer
+[2.553s] running install
+[2.562s] running install_lib
+[2.588s] creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+[2.589s] copying /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer/__init__.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+[2.589s] copying /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build/lib/image_veiwer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer
+[2.590s] byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer/__init__.py to __init__.cpython-312.pyc
+[2.590s] byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer/viewer_node.py to viewer_node.cpython-312.pyc
+[2.591s] running install_data
+[2.591s] creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index
+[2.591s] creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index
+[2.592s] creating /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index/packages
+[2.592s] copying resource/image_veiwer -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/ament_index/resource_index/packages
+[2.592s] copying package.xml -> /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/share/image_veiwer
+[2.592s] running install_egg_info
+[2.620s] Copying ../../build/image_veiwer/image_veiwer.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages/image_veiwer-0.0.0-py3.12.egg-info
+[2.621s] running install_scripts
+[2.832s] Installing image_viewer script to /home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/image_veiwer
+[2.833s] writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/install.log'
+[2.967s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/image_veiwer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_veiwer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_veiwer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_veiwer/install.log --single-version-externally-managed install_data
