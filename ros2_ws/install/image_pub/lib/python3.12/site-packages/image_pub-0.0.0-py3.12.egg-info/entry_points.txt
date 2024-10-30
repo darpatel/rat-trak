@@ -1,0 +1,2 @@
+[console_scripts]
+image_publisher = image_pub.publisher_node:main
