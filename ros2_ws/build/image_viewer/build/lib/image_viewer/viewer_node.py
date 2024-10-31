@@ -19,6 +19,10 @@ class ImageViewer(Node):
     def listener_callback(self, msg):
         # Convert the ROS Image message to OpenCV format
         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+
+        # Downsample the image to reduce delay
+        height, width = cv_image.shape[:2]
+        cv_image = cv2.resize(cv_image, (width // 2, height // 2))
         
         # Display the image in a window
         cv2.imshow("Image Viewer", cv_image)
