@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying image_pub/publisher_node.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build/lib/image_pub
+running install
+running install_lib
+copying /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build/lib/image_pub/publisher_node.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub
+running install_data
+running install_egg_info
+removing '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/image_pub/image_pub.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing image_publisher script to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/image_pub
+writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log'

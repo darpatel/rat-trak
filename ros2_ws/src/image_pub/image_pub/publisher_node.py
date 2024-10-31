@@ -4,14 +4,20 @@ from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2
+from rclpy.qos import qos_profile_sensor_data
+
 
 class ImagePublisher(Node):
     def __init__(self):
         super().__init__('image_publisher')
-        self.publisher_ = self.create_publisher(Image, 'image_raw', 10)
-        self.timer = self.create_timer(0.1, self.timer_callback)  # Publishes at 10 Hz
+        self.publisher_ = self.create_publisher(Image, 'image_raw', qos_profile_sensor_data)
+        self.fps = 60
+        self.timer = self.create_timer(1.0 / self.fps, self.timer_callback)
         self.bridge = CvBridge()
         self.cap = cv2.VideoCapture(0)  # Adjust the index for your camera
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
+        self.cap.set(cv2.CAP_PROP_FPS, 10)  # Or another value that matches your processing power
 
     def timer_callback(self):
         ret, frame = self.cap.read()

@@ -1,0 +1,24 @@
+[2.428s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[2.851s] running egg_info
+[2.877s] writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO
+[2.877s] writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt
+[2.879s] writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt
+[2.880s] writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt
+[2.881s] writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt
+[2.938s] reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[2.939s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[2.940s] running build
+[2.940s] running build_py
+[2.945s] copying image_viewer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build/lib/image_viewer
+[2.946s] running install
+[2.956s] running install_lib
+[2.985s] copying /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build/lib/image_viewer/viewer_node.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer
+[2.986s] byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer/viewer_node.py to viewer_node.cpython-312.pyc
+[2.987s] running install_data
+[2.993s] running install_egg_info
+[3.021s] removing '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer-0.0.0-py3.12.egg-info' (and everything under it)
+[3.022s] Copying ../../build/image_viewer/image_viewer.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer-0.0.0-py3.12.egg-info
+[3.023s] running install_scripts
+[3.223s] Installing image_viewer script to /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/image_viewer
+[3.225s] writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log'
+[3.408s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[2.111s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[2.546s] running egg_info
+[2.578s] writing ../../build/image_pub/image_pub.egg-info/PKG-INFO
+[2.578s] writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt
+[2.578s] writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt
+[2.579s] writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt
+[2.580s] writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt
+[2.641s] reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[2.643s] writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'
+[2.644s] running build
+[2.645s] running build_py
+[2.646s] copying image_pub/publisher_node.py -> /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build/lib/image_pub
+[2.647s] running install
+[2.654s] running install_lib
+[2.694s] copying /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build/lib/image_pub/publisher_node.py -> /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub
+[2.696s] byte-compiling /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub/publisher_node.py to publisher_node.cpython-312.pyc
+[2.698s] running install_data
+[2.699s] running install_egg_info
+[2.748s] removing '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info' (and everything under it)
+[2.748s] Copying ../../build/image_pub/image_pub.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info
+[2.752s] running install_scripts
+[2.985s] Installing image_publisher script to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/image_pub
+[2.988s] writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log'
+[3.101s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
