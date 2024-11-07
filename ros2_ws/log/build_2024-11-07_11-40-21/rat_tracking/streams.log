@@ -1,0 +1,24 @@
+[1.840s] Invoking command in '/home/pullen65/rat-trak/ros2_ws/src/rat_tracking': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/rat_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rat_tracking build --build-base /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build install --record /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/install.log --single-version-externally-managed install_data
+[2.172s] running egg_info
+[2.194s] writing ../../build/rat_tracking/rat_tracking.egg-info/PKG-INFO
+[2.194s] writing dependency_links to ../../build/rat_tracking/rat_tracking.egg-info/dependency_links.txt
+[2.194s] writing entry points to ../../build/rat_tracking/rat_tracking.egg-info/entry_points.txt
+[2.195s] writing requirements to ../../build/rat_tracking/rat_tracking.egg-info/requires.txt
+[2.195s] writing top-level names to ../../build/rat_tracking/rat_tracking.egg-info/top_level.txt
+[2.237s] reading manifest file '../../build/rat_tracking/rat_tracking.egg-info/SOURCES.txt'
+[2.239s] writing manifest file '../../build/rat_tracking/rat_tracking.egg-info/SOURCES.txt'
+[2.239s] running build
+[2.239s] running build_py
+[2.239s] copying rat_tracking/rat_tracking.py -> /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build/lib/rat_tracking
+[2.240s] running install
+[2.252s] running install_lib
+[2.283s] copying /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build/lib/rat_tracking/rat_tracking.py -> /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat_tracking
+[2.283s] byte-compiling /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat_tracking/rat_tracking.py to rat_tracking.cpython-312.pyc
+[2.285s] running install_data
+[2.285s] running install_egg_info
+[2.311s] removing '/home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat_tracking-0.0.0-py3.12.egg-info' (and everything under it)
+[2.312s] Copying ../../build/rat_tracking/rat_tracking.egg-info to /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat_tracking-0.0.0-py3.12.egg-info
+[2.313s] running install_scripts
+[2.463s] Installing rat_tracker script to /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/rat_tracking
+[2.463s] writing list of installed files to '/home/pullen65/rat-trak/ros2_ws/build/rat_tracking/install.log'
+[2.522s] Invoked command in '/home/pullen65/rat-trak/ros2_ws/src/rat_tracking' returned '0': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/rat_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rat_tracking build --build-base /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build install --record /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/install.log --single-version-externally-managed install_data

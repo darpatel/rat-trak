@@ -1,0 +1,32 @@
+[1.949s] Invoking command in '/home/pullen65/rat-trak/ros2_ws/build/image_viewer': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/image_viewer/build --no-deps symlink_data --force
+[2.351s] running develop
+[2.351s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.351s] !!
+[2.351s] 
+[2.351s]         ********************************************************************************
+[2.351s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.351s]         Instead, use pypa/build, pypa/installer or other
+[2.352s]         standards-based tools.
+[2.352s] 
+[2.352s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.352s]         ********************************************************************************
+[2.352s] 
+[2.352s] !!
+[2.352s]   easy_install.initialize_options(self)
+[2.594s] running egg_info
+[2.614s] writing image_viewer.egg-info/PKG-INFO
+[2.614s] writing dependency_links to image_viewer.egg-info/dependency_links.txt
+[2.615s] writing entry points to image_viewer.egg-info/entry_points.txt
+[2.615s] writing requirements to image_viewer.egg-info/requires.txt
+[2.615s] writing top-level names to image_viewer.egg-info/top_level.txt
+[2.666s] reading manifest file 'image_viewer.egg-info/SOURCES.txt'
+[2.666s] writing manifest file 'image_viewer.egg-info/SOURCES.txt'
+[2.686s] running build_ext
+[2.687s] Creating /home/pullen65/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image-viewer.egg-link (link to .)
+[2.688s] Installing image_viewer script to /home/pullen65/rat-trak/ros2_ws/install/image_viewer/lib/image_viewer
+[2.688s] 
+[2.688s] Installed /home/pullen65/rat-trak/ros2_ws/build/image_viewer
+[2.689s] running symlink_data
+[2.689s] symbolically linking /home/pullen65/rat-trak/ros2_ws/build/image_viewer/resource/image_viewer -> /home/pullen65/rat-trak/ros2_ws/install/image_viewer/share/ament_index/resource_index/packages
+[2.689s] symbolically linking /home/pullen65/rat-trak/ros2_ws/build/image_viewer/package.xml -> /home/pullen65/rat-trak/ros2_ws/install/image_viewer/share/image_viewer
+[2.753s] Invoked command in '/home/pullen65/rat-trak/ros2_ws/build/image_viewer' returned '0': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/image_viewer/build --no-deps symlink_data --force

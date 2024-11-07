@@ -1,0 +1,44 @@
+[1.788s] Invoking command in '/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build
+[2.152s] running develop
+[2.152s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.152s] !!
+[2.152s] 
+[2.152s]         ********************************************************************************
+[2.152s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.152s]         Instead, use pypa/build, pypa/installer or other
+[2.152s]         standards-based tools.
+[2.152s] 
+[2.152s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.152s]         ********************************************************************************
+[2.153s] 
+[2.153s] !!
+[2.153s]   easy_install.initialize_options(self)
+[2.364s] Removing /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor-control-pkg.egg-link (link to .)
+[2.418s] Invoked command in '/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg' returned '0': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build
+[2.422s] Invoking command in '/home/pullen65/rat-trak/ros2_ws/src/motor_control_pkg': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data --force
+[2.735s] running egg_info
+[2.759s] writing ../../build/motor_control_pkg/motor_control_pkg.egg-info/PKG-INFO
+[2.760s] writing dependency_links to ../../build/motor_control_pkg/motor_control_pkg.egg-info/dependency_links.txt
+[2.760s] writing entry points to ../../build/motor_control_pkg/motor_control_pkg.egg-info/entry_points.txt
+[2.760s] writing requirements to ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt
+[2.760s] writing top-level names to ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt
+[2.802s] reading manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[2.803s] writing manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[2.803s] running build
+[2.803s] running build_py
+[2.804s] running install
+[2.812s] running install_lib
+[2.831s] creating /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+[2.831s] copying /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build/lib/motor_control_pkg/__init__.py -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+[2.832s] copying /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build/lib/motor_control_pkg/pwm_controller.py -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+[2.832s] byte-compiling /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg/__init__.py to __init__.cpython-312.pyc
+[2.832s] byte-compiling /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg/pwm_controller.py to pwm_controller.cpython-312.pyc
+[2.833s] running install_data
+[2.833s] copying resource/motor_control_pkg -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/share/ament_index/resource_index/packages
+[2.833s] copying package.xml -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg
+[2.833s] running install_egg_info
+[2.855s] Copying ../../build/motor_control_pkg/motor_control_pkg.egg-info to /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info
+[2.855s] running install_scripts
+[3.003s] Installing pwm_controller script to /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/motor_control_pkg
+[3.003s] writing list of installed files to '/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/install.log'
+[3.054s] Invoked command in '/home/pullen65/rat-trak/ros2_ws/src/motor_control_pkg' returned '0': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data --force
