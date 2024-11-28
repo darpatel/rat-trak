@@ -1,0 +1,29 @@
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/PIDController.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkBase.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkFlex.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkMax.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libsparkcan.so[0m
+[ 45%] Built target sparkcan
+[ 72%] [32mBuilding CXX object CMakeFiles/example_status.dir/examples/status.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/example_pid.dir/examples/pid.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable example_control[0m
+[ 90%] [32m[1mLinking CXX executable example_status[0m
+[ 90%] Built target example_control
+[100%] [32m[1mLinking CXX executable example_pid[0m
+[100%] Built target example_status
+[100%] Built target example_pid
+-- Install configuration: ""
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake

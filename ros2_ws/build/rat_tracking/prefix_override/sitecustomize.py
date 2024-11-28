@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/pullen65/rat-trak/ros2_ws/install/rat_tracking'
+    sys.prefix = sys.exec_prefix = '/home/rat-trak/rat-trak/ros2_ws/install/rat_tracking'

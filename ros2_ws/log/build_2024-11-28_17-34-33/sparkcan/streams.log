@@ -1,0 +1,33 @@
+[0.032s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[0.109s] -- Configuring done (0.0s)
+[0.130s] -- Generating done (0.0s)
+[0.132s] -- Build files have been written to: /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[0.199s] [ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/PIDController.cpp.o[0m
+[0.200s] [ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkBase.cpp.o[0m
+[0.200s] [ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkFlex.cpp.o[0m
+[0.200s] [ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkMax.cpp.o[0m
+[2.365s] [ 45%] [32m[1mLinking CXX shared library libsparkcan.so[0m
+[2.536s] [ 45%] Built target sparkcan
+[2.583s] [ 72%] [32mBuilding CXX object CMakeFiles/example_status.dir/examples/status.cpp.o[0m
+[2.583s] [ 72%] [32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o[0m
+[2.583s] [ 72%] [32mBuilding CXX object CMakeFiles/example_pid.dir/examples/pid.cpp.o[0m
+[3.642s] [ 81%] [32m[1mLinking CXX executable example_control[0m
+[3.819s] [ 90%] [32m[1mLinking CXX executable example_status[0m
+[3.841s] [ 90%] Built target example_control
+[3.864s] [100%] [32m[1mLinking CXX executable example_pid[0m
+[4.005s] [100%] Built target example_status
+[4.040s] [100%] Built target example_pid
+[4.062s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[4.135s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[4.148s] -- Install configuration: ""
+[4.148s] -- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+[4.150s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+[4.151s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+[4.151s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+[4.151s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake
+[4.154s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
