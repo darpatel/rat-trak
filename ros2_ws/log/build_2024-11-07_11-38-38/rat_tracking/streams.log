@@ -1,0 +1,37 @@
+[1.947s] Invoking command in '/home/pullen65/rat-trak/ros2_ws/build/rat_tracking': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/rat_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build --no-deps symlink_data
+[2.391s] running develop
+[2.391s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.391s] !!
+[2.391s] 
+[2.391s]         ********************************************************************************
+[2.392s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.392s]         Instead, use pypa/build, pypa/installer or other
+[2.392s]         standards-based tools.
+[2.392s] 
+[2.392s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.392s]         ********************************************************************************
+[2.392s] 
+[2.392s] !!
+[2.392s]   easy_install.initialize_options(self)
+[2.635s] running egg_info
+[2.635s] creating rat_tracking.egg-info
+[2.657s] writing rat_tracking.egg-info/PKG-INFO
+[2.657s] writing dependency_links to rat_tracking.egg-info/dependency_links.txt
+[2.657s] writing entry points to rat_tracking.egg-info/entry_points.txt
+[2.657s] writing requirements to rat_tracking.egg-info/requires.txt
+[2.657s] writing top-level names to rat_tracking.egg-info/top_level.txt
+[2.658s] writing manifest file 'rat_tracking.egg-info/SOURCES.txt'
+[2.702s] reading manifest file 'rat_tracking.egg-info/SOURCES.txt'
+[2.702s] writing manifest file 'rat_tracking.egg-info/SOURCES.txt'
+[2.735s] running build_ext
+[2.735s] Creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat-tracking.egg-link (link to .)
+[2.736s] Installing rat_tracker script to /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/rat_tracking
+[2.737s] 
+[2.737s] Installed /home/pullen65/rat-trak/ros2_ws/build/rat_tracking
+[2.737s] running symlink_data
+[2.738s] creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index
+[2.739s] creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index
+[2.740s] creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index/packages
+[2.741s] symbolically linking /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/resource/rat_tracking -> /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index/packages
+[2.741s] symbolically linking /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/package.xml -> /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/rat_tracking
+[2.796s] Invoked command in '/home/pullen65/rat-trak/ros2_ws/build/rat_tracking' returned '0': PYTHONPATH=/home/pullen65/rat-trak/ros2_ws/build/rat_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/build --no-deps symlink_data

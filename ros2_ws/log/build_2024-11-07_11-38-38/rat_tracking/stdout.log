@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating rat_tracking.egg-info
+writing rat_tracking.egg-info/PKG-INFO
+writing dependency_links to rat_tracking.egg-info/dependency_links.txt
+writing entry points to rat_tracking.egg-info/entry_points.txt
+writing requirements to rat_tracking.egg-info/requires.txt
+writing top-level names to rat_tracking.egg-info/top_level.txt
+writing manifest file 'rat_tracking.egg-info/SOURCES.txt'
+reading manifest file 'rat_tracking.egg-info/SOURCES.txt'
+writing manifest file 'rat_tracking.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/python3.12/site-packages/rat-tracking.egg-link (link to .)
+Installing rat_tracker script to /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/lib/rat_tracking
+
+Installed /home/pullen65/rat-trak/ros2_ws/build/rat_tracking
+running symlink_data
+creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index
+creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index
+creating /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index/packages
+symbolically linking /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/resource/rat_tracking -> /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/ament_index/resource_index/packages
+symbolically linking /home/pullen65/rat-trak/ros2_ws/build/rat_tracking/package.xml -> /home/pullen65/rat-trak/ros2_ws/install/rat_tracking/share/rat_tracking

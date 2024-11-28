@@ -1,0 +1,21 @@
+[5.523s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data
+[6.574s] running egg_info
+[6.625s] writing ../../build/motor_control_pkg/motor_control_pkg.egg-info/PKG-INFO
+[6.626s] writing dependency_links to ../../build/motor_control_pkg/motor_control_pkg.egg-info/dependency_links.txt
+[6.628s] writing entry points to ../../build/motor_control_pkg/motor_control_pkg.egg-info/entry_points.txt
+[6.629s] writing requirements to ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt
+[6.630s] writing top-level names to ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt
+[6.734s] reading manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[6.740s] writing manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+[6.741s] running build
+[6.742s] running build_py
+[6.745s] running install
+[6.761s] running install_lib
+[6.824s] running install_data
+[6.825s] running install_egg_info
+[6.880s] removing '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[6.883s] Copying ../../build/motor_control_pkg/motor_control_pkg.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info
+[6.898s] running install_scripts
+[7.313s] Installing pwm_controller script to /home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/motor_control_pkg
+[7.314s] writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log'
+[7.520s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data

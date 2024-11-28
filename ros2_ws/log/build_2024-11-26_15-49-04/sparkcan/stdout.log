@@ -1,0 +1,35 @@
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[  9%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/PIDController.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkFlex.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkMax.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkBase.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libsparkcan.so[0m
+[ 45%] Built target sparkcan
+[ 72%] [32mBuilding CXX object CMakeFiles/example_status.dir/examples/status.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/example_pid.dir/examples/pid.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable example_control[0m
+[ 90%] [32m[1mLinking CXX executable example_status[0m
+[ 90%] Built target example_control
+[100%] [32m[1mLinking CXX executable example_pid[0m
+[100%] Built target example_status
+[100%] Built target example_pid
+-- Install configuration: ""
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake

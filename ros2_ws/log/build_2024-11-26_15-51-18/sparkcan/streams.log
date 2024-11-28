@@ -1,0 +1,21 @@
+[1.424s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[1.660s] [ 45%] Built target sparkcan
+[1.808s] [ 63%] Built target example_pid
+[1.832s] [ 90%] [32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o[0m
+[1.835s] [ 81%] Built target example_status
+[3.864s] [100%] [32m[1mLinking CXX executable example_control[0m
+[4.188s] [100%] Built target example_control
+[4.228s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[4.370s] Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[4.396s] -- Install configuration: ""
+[4.399s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+[4.401s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include
+[4.401s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+[4.401s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+[4.401s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+[4.402s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+[4.402s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+[4.402s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+[4.405s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+[4.405s] -- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake
+[4.411s] Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan

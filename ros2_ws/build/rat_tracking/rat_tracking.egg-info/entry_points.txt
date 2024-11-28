@@ -1,0 +1,2 @@
+[console_scripts]
+rat_tracker = rat_tracking.rat_tracker:main

@@ -1,0 +1,9 @@
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake

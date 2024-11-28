@@ -1,0 +1,294 @@
+[0.399s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.399s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9e0bf5c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9eb372f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9eb372f0>>, mixin_verb=('build',))
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.516s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rat-trak/rat-trak/ros2_ws'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_launch) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pub) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pub' with type 'ros.ament_python' and name 'image_pub'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_viewer' with type 'ros.ament_python' and name 'image_viewer'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control_pkg) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control_pkg' with type 'ros.ament_python' and name 'motor_control_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcan-master) by extension 'python'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sparkcan-master' with type 'cmake' and name 'sparkcan'
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'image_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rat-trak/rat-trak/ros2_ws/build/image_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rat-trak/rat-trak/ros2_ws/install/image_pub', 'merge_install': False, 'path': '/home/rat-trak/rat-trak/ros2_ws/src/image_pub', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'image_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer', 'merge_install': False, 'path': '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'motor_control_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg', 'merge_install': False, 'path': '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'sparkcan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'sparkcan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan', 'merge_install': False, 'path': '/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master', 'symlink_install': False, 'test_result_base': None}
+[0.721s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub' with build type 'ament_python'
+[0.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pub', 'ament_prefix_path')
+[0.915s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/ament_prefix_path.sh'
+[0.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.947s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer' with build type 'ament_python'
+[0.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'ament_prefix_path')
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/ament_prefix_path.sh'
+[0.970s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg' with build type 'ament_python'
+[0.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_pkg', 'ament_prefix_path')
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/ament_prefix_path.ps1'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/ament_prefix_path.dsv'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/ament_prefix_path.sh'
+[1.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.559s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub'
+[1.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer'
+[1.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg'
+[2.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master -DCMAKE_INSTALL_PREFIX=/home/rat-trak/rat-trak/ros2_ws/install/sparkcan
+[3.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master -DCMAKE_INSTALL_PREFIX=/home/rat-trak/rat-trak/ros2_ws/install/sparkcan
+[3.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[6.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data
+[6.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[6.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[8.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_control_pkg build --build-base /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/build install --record /home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log --single-version-externally-managed install_data
+[8.534s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg' for CMake module files
+[8.535s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg' for CMake config files
+[8.538s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib'
+[8.539s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/bin'
+[8.539s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/pkgconfig/motor_control_pkg.pc'
+[8.539s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages'
+[8.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control_pkg', 'pythonpath')
+[8.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/pythonpath.ps1'
+[8.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/pythonpath.dsv'
+[8.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/hook/pythonpath.sh'
+[8.545s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/bin'
+[8.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control_pkg)
+[8.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/package.ps1'
+[8.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/package.dsv'
+[8.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/package.sh'
+[8.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/package.bash'
+[8.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg/package.zsh'
+[8.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/share/colcon-core/packages/motor_control_pkg)
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub' for CMake module files
+[8.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/image_pub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_pub build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_pub/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log --single-version-externally-managed install_data
+[8.874s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub' for CMake config files
+[8.878s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib'
+[8.879s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/bin'
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/pkgconfig/image_pub.pc'
+[8.881s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages'
+[8.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_pub', 'pythonpath')
+[8.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.ps1'
+[8.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.dsv'
+[8.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/hook/pythonpath.sh'
+[8.894s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/bin'
+[8.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_pub)
+[8.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/package.ps1'
+[8.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/package.dsv'
+[8.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/package.sh'
+[8.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/package.bash'
+[8.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/image_pub/package.zsh'
+[8.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rat-trak/rat-trak/ros2_ws/install/image_pub/share/colcon-core/packages/image_pub)
+[8.914s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer' for CMake module files
+[8.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build install --record /home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log --single-version-externally-managed install_data
+[8.921s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer' for CMake config files
+[8.930s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib'
+[8.932s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/bin'
+[8.934s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/pkgconfig/image_viewer.pc'
+[8.936s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages'
+[8.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'pythonpath')
+[8.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/pythonpath.ps1'
+[8.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/pythonpath.dsv'
+[8.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/hook/pythonpath.sh'
+[8.950s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/bin'
+[8.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_viewer)
+[8.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/package.ps1'
+[8.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/package.dsv'
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/package.sh'
+[8.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/package.bash'
+[8.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/image_viewer/package.zsh'
+[8.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/share/colcon-core/packages/image_viewer)
+[11.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+[11.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[11.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sparkcan)
+[11.744s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan' for CMake module files
+[11.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+[11.745s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan' for CMake config files
+[11.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('sparkcan', 'cmake_prefix_path')
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/cmake_prefix_path.ps1'
+[11.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/cmake_prefix_path.dsv'
+[11.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/cmake_prefix_path.sh'
+[11.747s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib'
+[11.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('sparkcan', 'ld_library_path_lib')
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/ld_library_path_lib.ps1'
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/ld_library_path_lib.dsv'
+[11.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/hook/ld_library_path_lib.sh'
+[11.748s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/bin'
+[11.748s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/pkgconfig/sparkcan.pc'
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/python3.12/site-packages'
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/bin'
+[11.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/package.ps1'
+[11.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/package.dsv'
+[11.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/package.sh'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/package.bash'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/sparkcan/package.zsh'
+[11.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rat-trak/rat-trak/ros2_ws/install/sparkcan/share/colcon-core/packages/sparkcan)
+[11.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.804s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.860s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rat-trak/rat-trak/ros2_ws/install/local_setup.ps1'
+[11.863s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rat-trak/rat-trak/ros2_ws/install/_local_setup_util_ps1.py'
+[11.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rat-trak/rat-trak/ros2_ws/install/setup.ps1'
+[11.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rat-trak/rat-trak/ros2_ws/install/local_setup.sh'
+[11.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rat-trak/rat-trak/ros2_ws/install/_local_setup_util_sh.py'
+[11.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rat-trak/rat-trak/ros2_ws/install/setup.sh'
+[11.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rat-trak/rat-trak/ros2_ws/install/local_setup.bash'
+[11.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rat-trak/rat-trak/ros2_ws/install/setup.bash'
+[11.883s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rat-trak/rat-trak/ros2_ws/install/local_setup.zsh'
+[11.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rat-trak/rat-trak/ros2_ws/install/setup.zsh'

@@ -1,0 +1,17 @@
+[ 45%] Built target sparkcan
+[ 63%] Built target example_pid
+[ 90%] [32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o[0m
+[ 81%] Built target example_status
+[100%] [32m[1mLinking CXX executable example_control[0m
+[100%] Built target example_control
+-- Install configuration: ""
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake
+-- Up-to-date: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake

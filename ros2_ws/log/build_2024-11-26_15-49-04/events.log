@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.000456] (image_viewer) JobQueued: {'identifier': 'image_viewer', 'dependencies': OrderedDict()}
+[0.000482] (motor_control_pkg) JobQueued: {'identifier': 'motor_control_pkg', 'dependencies': OrderedDict()}
+[0.000504] (sparkcan) JobQueued: {'identifier': 'sparkcan', 'dependencies': OrderedDict()}
+[0.002465] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.099653] (-) TimerEvent: {}
+[0.200006] (-) TimerEvent: {}
+[0.225730] (image_viewer) JobStarted: {'identifier': 'image_viewer'}
+[0.268055] (motor_control_pkg) JobStarted: {'identifier': 'motor_control_pkg'}
+[0.289167] (sparkcan) JobStarted: {'identifier': 'sparkcan'}
+[0.301321] (-) TimerEvent: {}
+[0.403825] (-) TimerEvent: {}
+[0.504384] (-) TimerEvent: {}
+[0.604745] (-) TimerEvent: {}
+[0.705088] (-) TimerEvent: {}
+[0.805444] (-) TimerEvent: {}
+[0.905863] (-) TimerEvent: {}
+[1.006229] (-) TimerEvent: {}
+[1.106549] (-) TimerEvent: {}
+[1.206937] (-) TimerEvent: {}
+[1.307385] (-) TimerEvent: {}
+[1.407733] (-) TimerEvent: {}
+[1.508091] (-) TimerEvent: {}
+[1.608407] (-) TimerEvent: {}
+[1.704702] (sparkcan) JobProgress: {'identifier': 'sparkcan', 'progress': 'cmake'}
+[1.705029] (sparkcan) Command: {'cmd': ['/usr/bin/cmake', '/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master', '-DCMAKE_INSTALL_PREFIX=/home/rat-trak/rat-trak/ros2_ws/install/sparkcan'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.708519] (-) TimerEvent: {}
+[1.820512] (-) TimerEvent: {}
+[1.924493] (-) TimerEvent: {}
+[2.021071] (sparkcan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[2.024609] (-) TimerEvent: {}
+[2.077063] (sparkcan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.124769] (-) TimerEvent: {}
+[2.227687] (-) TimerEvent: {}
+[2.328205] (-) TimerEvent: {}
+[2.422798] (sparkcan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.428324] (-) TimerEvent: {}
+[2.481722] (sparkcan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.487064] (sparkcan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.488054] (sparkcan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.496013] (sparkcan) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[2.510808] (sparkcan) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.512176] (sparkcan) StdoutLine: {'line': b'-- Build files have been written to: /home/rat-trak/rat-trak/ros2_ws/build/sparkcan\n'}
+[2.517901] (sparkcan) CommandEnded: {'returncode': 0}
+[2.520155] (sparkcan) JobProgress: {'identifier': 'sparkcan', 'progress': 'build'}
+[2.520199] (sparkcan) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', '--', '-j4', '-l4'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.528436] (-) TimerEvent: {}
+[2.629905] (-) TimerEvent: {}
+[2.678232] (sparkcan) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/sparkcan.dir/src/PIDController.cpp.o\x1b[0m\n'}
+[2.678783] (sparkcan) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkFlex.cpp.o\x1b[0m\n'}
+[2.679011] (sparkcan) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkMax.cpp.o\x1b[0m\n'}
+[2.683979] (sparkcan) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/sparkcan.dir/src/SparkBase.cpp.o\x1b[0m\n'}
+[2.731970] (-) TimerEvent: {}
+[2.832679] (-) TimerEvent: {}
+[2.933097] (-) TimerEvent: {}
+[3.038339] (-) TimerEvent: {}
+[3.138785] (-) TimerEvent: {}
+[3.239261] (-) TimerEvent: {}
+[3.339714] (-) TimerEvent: {}
+[3.444137] (-) TimerEvent: {}
+[3.544585] (-) TimerEvent: {}
+[3.648008] (-) TimerEvent: {}
+[3.748464] (-) TimerEvent: {}
+[3.848926] (-) TimerEvent: {}
+[3.952414] (-) TimerEvent: {}
+[4.053031] (-) TimerEvent: {}
+[4.156371] (-) TimerEvent: {}
+[4.256887] (-) TimerEvent: {}
+[4.357306] (-) TimerEvent: {}
+[4.460288] (-) TimerEvent: {}
+[4.560961] (-) TimerEvent: {}
+[4.662521] (-) TimerEvent: {}
+[4.765250] (-) TimerEvent: {}
+[4.865825] (-) TimerEvent: {}
+[4.969121] (-) TimerEvent: {}
+[5.074182] (-) TimerEvent: {}
+[5.174627] (-) TimerEvent: {}
+[5.275112] (-) TimerEvent: {}
+[5.375856] (-) TimerEvent: {}
+[5.477158] (-) TimerEvent: {}
+[5.582285] (-) TimerEvent: {}
+[5.683350] (-) TimerEvent: {}
+[5.793096] (motor_control_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control_pkg', 'build', '--build-base', '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/build', 'install', '--record', '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/src/motor_control_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.795572] (-) TimerEvent: {}
+[5.902000] (-) TimerEvent: {}
+[6.002613] (-) TimerEvent: {}
+[6.083913] (image_viewer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_viewer', 'build', '--build-base', '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/build', 'install', '--record', '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/src/image_viewer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.097974] (image_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_pub', 'build', '--build-base', '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/build', 'install', '--record', '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/src/image_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/image_pub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.104066] (-) TimerEvent: {}
+[6.207535] (-) TimerEvent: {}
+[6.310771] (-) TimerEvent: {}
+[6.414429] (-) TimerEvent: {}
+[6.514825] (-) TimerEvent: {}
+[6.615265] (-) TimerEvent: {}
+[6.715726] (-) TimerEvent: {}
+[6.816113] (-) TimerEvent: {}
+[6.845790] (motor_control_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.896371] (motor_control_pkg) StdoutLine: {'line': b'writing ../../build/motor_control_pkg/motor_control_pkg.egg-info/PKG-INFO\n'}
+[6.897834] (motor_control_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control_pkg/motor_control_pkg.egg-info/dependency_links.txt\n'}
+[6.899295] (motor_control_pkg) StdoutLine: {'line': b'writing entry points to ../../build/motor_control_pkg/motor_control_pkg.egg-info/entry_points.txt\n'}
+[6.900447] (motor_control_pkg) StdoutLine: {'line': b'writing requirements to ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt\n'}
+[6.901391] (motor_control_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt\n'}
+[6.918949] (-) TimerEvent: {}
+[6.949688] (image_pub) StdoutLine: {'line': b'running egg_info\n'}
+[7.000291] (image_pub) StdoutLine: {'line': b'writing ../../build/image_pub/image_pub.egg-info/PKG-INFO\n'}
+[7.001705] (image_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/image_pub/image_pub.egg-info/dependency_links.txt\n'}
+[7.004644] (image_pub) StdoutLine: {'line': b'writing entry points to ../../build/image_pub/image_pub.egg-info/entry_points.txt\n'}
+[7.004900] (image_pub) StdoutLine: {'line': b'writing requirements to ../../build/image_pub/image_pub.egg-info/requires.txt\n'}
+[7.005798] (image_pub) StdoutLine: {'line': b'writing top-level names to ../../build/image_pub/image_pub.egg-info/top_level.txt\n'}
+[7.005991] (motor_control_pkg) StdoutLine: {'line': b"reading manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'\n"}
+[7.011722] (motor_control_pkg) StdoutLine: {'line': b"writing manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'\n"}
+[7.012958] (motor_control_pkg) StdoutLine: {'line': b'running build\n'}
+[7.013552] (motor_control_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.016364] (motor_control_pkg) StdoutLine: {'line': b'running install\n'}
+[7.019058] (-) TimerEvent: {}
+[7.032632] (motor_control_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.095144] (motor_control_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.096473] (motor_control_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.098411] (image_viewer) StdoutLine: {'line': b'running egg_info\n'}
+[7.114750] (image_pub) StdoutLine: {'line': b"reading manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[7.116598] (image_pub) StdoutLine: {'line': b"writing manifest file '../../build/image_pub/image_pub.egg-info/SOURCES.txt'\n"}
+[7.117416] (image_pub) StdoutLine: {'line': b'running build\n'}
+[7.118125] (image_pub) StdoutLine: {'line': b'running build_py\n'}
+[7.119277] (-) TimerEvent: {}
+[7.128061] (image_pub) StdoutLine: {'line': b'running install\n'}
+[7.150284] (motor_control_pkg) StdoutLine: {'line': b"removing '/home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.154987] (motor_control_pkg) StdoutLine: {'line': b'Copying ../../build/motor_control_pkg/motor_control_pkg.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info\n'}
+[7.155781] (image_pub) StdoutLine: {'line': b'running install_lib\n'}
+[7.167831] (image_viewer) StdoutLine: {'line': b'writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO\n'}
+[7.170111] (motor_control_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.174295] (image_viewer) StdoutLine: {'line': b'writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt\n'}
+[7.175420] (image_viewer) StdoutLine: {'line': b'writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt\n'}
+[7.176545] (image_viewer) StdoutLine: {'line': b'writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt\n'}
+[7.182958] (image_viewer) StdoutLine: {'line': b'writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt\n'}
+[7.220834] (-) TimerEvent: {}
+[7.237541] (image_pub) StdoutLine: {'line': b'running install_data\n'}
+[7.238797] (image_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.321181] (-) TimerEvent: {}
+[7.325138] (image_pub) StdoutLine: {'line': b"removing '/home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.327337] (image_pub) StdoutLine: {'line': b'Copying ../../build/image_pub/image_pub.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/python3.12/site-packages/image_pub-0.0.0-py3.12.egg-info\n'}
+[7.327821] (image_viewer) StdoutLine: {'line': b"reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[7.330179] (image_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.330643] (image_viewer) StdoutLine: {'line': b"writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[7.331546] (image_viewer) StdoutLine: {'line': b'running build\n'}
+[7.332032] (image_viewer) StdoutLine: {'line': b'running build_py\n'}
+[7.337061] (image_viewer) StdoutLine: {'line': b'running install\n'}
+[7.347398] (image_viewer) StdoutLine: {'line': b'running install_lib\n'}
+[7.389596] (image_viewer) StdoutLine: {'line': b'running install_data\n'}
+[7.393062] (image_viewer) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.421347] (-) TimerEvent: {}
+[7.431714] (image_viewer) StdoutLine: {'line': b"removing '/home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.432367] (image_viewer) StdoutLine: {'line': b'Copying ../../build/image_viewer/image_viewer.egg-info to /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/python3.12/site-packages/image_viewer-0.0.0-py3.12.egg-info\n'}
+[7.434732] (image_viewer) StdoutLine: {'line': b'running install_scripts\n'}
+[7.521505] (-) TimerEvent: {}
+[7.584411] (motor_control_pkg) StdoutLine: {'line': b'Installing pwm_controller script to /home/rat-trak/rat-trak/ros2_ws/install/motor_control_pkg/lib/motor_control_pkg\n'}
+[7.585966] (motor_control_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/motor_control_pkg/install.log'\n"}
+[7.623681] (-) TimerEvent: {}
+[7.724343] (-) TimerEvent: {}
+[7.791184] (motor_control_pkg) CommandEnded: {'returncode': 0}
+[7.825799] (-) TimerEvent: {}
+[7.863201] (motor_control_pkg) JobEnded: {'identifier': 'motor_control_pkg', 'rc': 0}
+[7.918487] (image_pub) StdoutLine: {'line': b'Installing image_publisher script to /home/rat-trak/rat-trak/ros2_ws/install/image_pub/lib/image_pub\n'}
+[7.920597] (image_pub) StdoutLine: {'line': b"writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_pub/install.log'\n"}
+[7.926030] (-) TimerEvent: {}
+[7.955379] (image_viewer) StdoutLine: {'line': b'Installing image_viewer script to /home/rat-trak/rat-trak/ros2_ws/install/image_viewer/lib/image_viewer\n'}
+[7.963215] (image_viewer) StdoutLine: {'line': b"writing list of installed files to '/home/rat-trak/rat-trak/ros2_ws/build/image_viewer/install.log'\n"}
+[8.027588] (-) TimerEvent: {}
+[8.128285] (-) TimerEvent: {}
+[8.143494] (image_pub) CommandEnded: {'returncode': 0}
+[8.185985] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[8.192154] (image_viewer) CommandEnded: {'returncode': 0}
+[8.230552] (-) TimerEvent: {}
+[8.253111] (image_viewer) JobEnded: {'identifier': 'image_viewer', 'rc': 0}
+[8.330821] (-) TimerEvent: {}
+[8.431579] (-) TimerEvent: {}
+[8.531961] (-) TimerEvent: {}
+[8.608657] (sparkcan) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libsparkcan.so\x1b[0m\n'}
+[8.632081] (-) TimerEvent: {}
+[8.732457] (-) TimerEvent: {}
+[8.832833] (-) TimerEvent: {}
+[8.834930] (sparkcan) StdoutLine: {'line': b'[ 45%] Built target sparkcan\n'}
+[8.901768] (sparkcan) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/example_status.dir/examples/status.cpp.o\x1b[0m\n'}
+[8.902109] (sparkcan) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/example_pid.dir/examples/pid.cpp.o\x1b[0m\n'}
+[8.903995] (sparkcan) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/example_control.dir/examples/control.cpp.o\x1b[0m\n'}
+[8.932976] (-) TimerEvent: {}
+[9.034107] (-) TimerEvent: {}
+[9.134509] (-) TimerEvent: {}
+[9.234937] (-) TimerEvent: {}
+[9.335376] (-) TimerEvent: {}
+[9.435832] (-) TimerEvent: {}
+[9.536306] (-) TimerEvent: {}
+[9.636729] (-) TimerEvent: {}
+[9.737181] (-) TimerEvent: {}
+[9.837578] (-) TimerEvent: {}
+[9.938011] (-) TimerEvent: {}
+[10.038899] (-) TimerEvent: {}
+[10.139341] (-) TimerEvent: {}
+[10.243256] (-) TimerEvent: {}
+[10.336335] (sparkcan) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable example_control\x1b[0m\n'}
+[10.343397] (-) TimerEvent: {}
+[10.443832] (-) TimerEvent: {}
+[10.535835] (sparkcan) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable example_status\x1b[0m\n'}
+[10.547015] (-) TimerEvent: {}
+[10.610932] (sparkcan) StdoutLine: {'line': b'[ 90%] Built target example_control\n'}
+[10.612493] (sparkcan) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_pid\x1b[0m\n'}
+[10.647242] (-) TimerEvent: {}
+[10.747819] (-) TimerEvent: {}
+[10.823948] (sparkcan) StdoutLine: {'line': b'[100%] Built target example_status\n'}
+[10.847952] (-) TimerEvent: {}
+[10.865791] (sparkcan) StdoutLine: {'line': b'[100%] Built target example_pid\n'}
+[10.899863] (sparkcan) CommandEnded: {'returncode': 0}
+[10.948063] (-) TimerEvent: {}
+[10.980115] (sparkcan) JobProgress: {'identifier': 'sparkcan', 'progress': 'install'}
+[10.999547] (sparkcan) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan'], 'cwd': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rat-trak', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rat-trak', 'OLDPWD': '/home/rat-trak/rat-trak/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2388', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rat-trak', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rat-trak', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rattrak-pi5:@/tmp/.ICE-unix/2361,unix/rattrak-pi5:/tmp/.ICE-unix/2361', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07d9c06a_a21c_4910_8a74_fbc31f8d55e3', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.XFB5X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.166', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[11.015130] (sparkcan) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.015468] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/libsparkcan.so\n'}
+[11.016852] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include\n'}
+[11.017028] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkMax.hpp\n'}
+[11.017183] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/PIDController.hpp\n'}
+[11.017327] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkFlex.hpp\n'}
+[11.017460] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/include/SparkBase.hpp\n'}
+[11.017840] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets.cmake\n'}
+[11.018088] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanTargets-noconfig.cmake\n'}
+[11.018247] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfig.cmake\n'}
+[11.018390] (sparkcan) StdoutLine: {'line': b'-- Installing: /home/rat-trak/rat-trak/ros2_ws/install/sparkcan/lib/cmake/sparkcan/sparkcanConfigVersion.cmake\n'}
+[11.021434] (sparkcan) CommandEnded: {'returncode': 0}
+[11.030002] (sparkcan) JobEnded: {'identifier': 'sparkcan', 'rc': 0}
+[11.031061] (-) EventReactorShutdown: {}

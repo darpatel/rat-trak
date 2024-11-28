@@ -1,0 +1,10 @@
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/sparkcan.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/example_control.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/example_pid.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/example_status.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/edit_cache.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/rebuild_cache.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/list_install_components.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/install.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/install/local.dir
+/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build/CMakeFiles/install/strip.dir

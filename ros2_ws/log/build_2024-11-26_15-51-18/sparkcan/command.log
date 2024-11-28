@@ -1,0 +1,4 @@
+Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rat-trak/rat-trak/ros2_ws/build/sparkcan -- -j4 -l4
+Invoking command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan
+Invoked command in '/home/rat-trak/rat-trak/ros2_ws/build/sparkcan' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rat-trak/rat-trak/ros2_ws/build/sparkcan

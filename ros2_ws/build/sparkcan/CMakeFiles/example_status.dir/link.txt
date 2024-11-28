@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/example_status.dir/examples/status.cpp.o -o example_status  -Wl,-rpath,/home/rat-trak/rat-trak/ros2_ws/build/sparkcan libsparkcan.so 

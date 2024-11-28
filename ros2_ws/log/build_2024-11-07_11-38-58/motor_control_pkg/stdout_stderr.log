@@ -1,0 +1,40 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+Removing /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor-control-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/motor_control_pkg/motor_control_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_control_pkg/motor_control_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_control_pkg/motor_control_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/motor_control_pkg/motor_control_pkg.egg-info/requires.txt
+writing top-level names to ../../build/motor_control_pkg/motor_control_pkg.egg-info/top_level.txt
+reading manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_control_pkg/motor_control_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+copying /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build/lib/motor_control_pkg/__init__.py -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+copying /home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/build/lib/motor_control_pkg/pwm_controller.py -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg
+byte-compiling /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg/pwm_controller.py to pwm_controller.cpython-312.pyc
+running install_data
+copying resource/motor_control_pkg -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/share/motor_control_pkg
+running install_egg_info
+Copying ../../build/motor_control_pkg/motor_control_pkg.egg-info to /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/python3.12/site-packages/motor_control_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing pwm_controller script to /home/pullen65/rat-trak/ros2_ws/install/motor_control_pkg/lib/motor_control_pkg
+writing list of installed files to '/home/pullen65/rat-trak/ros2_ws/build/motor_control_pkg/install.log'

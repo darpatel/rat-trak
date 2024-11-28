@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/example_control.dir/examples/control.cpp.o -o example_control  -Wl,-rpath,/home/rat-trak/rat-trak/ros2_ws/src/sparkcan-master/build libsparkcan.so 
